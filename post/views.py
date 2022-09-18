@@ -1,3 +1,10 @@
 from django.shortcuts import render
+from django.views import View
 
-# Create your views here.
+
+class PostDetail(View):
+    pass
+
+
+class PostList(View):
+    pass
